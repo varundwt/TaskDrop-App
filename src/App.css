@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  height: 70vh;
+}
+
+.header{
+  height: 15vh;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+
+.header-img{
+  height: 14vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;    
+}
+
+input{
+  height: 6vh;
+  width: 50vh;
+  background-color: black;
+  border-radius: 1vh;
+  border: none;
+  color: white;
+  margin-top: 2vh;  
+}
+
+button{
+  height: 6vh;
+  width: 12vh;
+  background-color: black;
+  color: white;
+  border-radius: 1vh;
+  border: none;
+  cursor: pointer;
+  font-size: 100%;
+}
+
+ul{  
+  padding-left: 0px;
+  margin-left: 6vh;
+  margin-right: 6vh;
+  background-color: rgb(233, 233, 233);
+  padding: 2vh;
+  border-radius: 2vh;
+  list-style-type: square;   
+}
+
+li{
+  color: rgb(0, 0, 0);
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  font-size: 1.2rem;
+  display: flex;  
+  justify-content: space-between;     
+}
+
+.delete-icon{
+  height: 5vh;
+  cursor: pointer;
+}
+
+.footer{
+  text-align: center;  
+  margin: 3vh;
+}
