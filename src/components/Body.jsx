@@ -15,7 +15,8 @@ function Body() {
   const handleTask = () => {
     do {
       if (value === "") {
-        setList([...list, "(Empty entry)"]);
+        alert("Please Enter a Valid Entry!")
+        setList([...list]);
         setItemLength(list.length + 0);
       } else {
         setList([...list, value]);
