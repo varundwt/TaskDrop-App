@@ -44,6 +44,7 @@ function Body() {
             placeholder="Enter your task"
             value={value}
             onChange={handleInput}
+            maxLength='20'
           />{" "}
           <button onClick={handleTask}>Add Task</button>
         </div>
