@@ -64,7 +64,7 @@ li{
   font-weight: 500;
   font-style: normal;
   text-align: center;
-  font-size: 2vh;
+  font-size: 3vh;
   display: flex;  
   justify-content: space-between;     
 }
@@ -77,5 +77,5 @@ li{
 .footer{
   text-align: center;  
   margin: 3vh;
-  font-size: 2vh;
+  font-size: 2.5vh;
 }
